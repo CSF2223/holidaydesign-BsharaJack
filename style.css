@@ -1,0 +1,11 @@
+.holidaysInfo img {
+    height: 240px;
+    width: 320px;
+}
+
+@media (min-width: 768px) {
+.holidaysInfo img {
+    height: 480px;
+    width: 640px;
+}
+}
