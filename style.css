@@ -1,6 +1,44 @@
+/*
+Background Color: #CBEDD5
+Highligh Color: #97DECE
+Text Color: #439A97
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+body{
+    font-family: 'Caveat', cursive;
+    background-color: #CBEDD5;
+    color: #439A97;
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
 .holidaysInfo img {
     height: 240px;
     width: 320px;
+}
+
+.Krampus img {
+    float: right;
+}
+
+.nightOfTheRadishes img {
+    float: left;
+}
+
+.kfcForChristmas {
+    float: right;
 }
 
 @media (min-width: 768px) {
@@ -8,4 +46,18 @@
     height: 480px;
     width: 640px;
 }
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 2rem;
+}
+}
+
+.copyrightForFav {
+text-align: center;
+color: #439A97;
+border-top: 1px solid #97DECE;
 }
