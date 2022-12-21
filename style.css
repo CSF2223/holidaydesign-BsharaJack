@@ -29,6 +29,18 @@ p {
     width: 320px;
 }
 
+.Krampus {
+    padding-bottom: 0rem;
+}
+
+.nightOfTheRadishes {
+    padding-bottom: 0rem;
+}
+
+.kfcForChristmas {
+    padding-bottom: 0rem;
+}
+
 .Krampus img {
     float: right;
 }
@@ -37,10 +49,24 @@ p {
     float: left;
 }
 
-.kfcForChristmas {
+.kfcForChristmas img {
     float: right;
 }
 
+.copyrightForFav {
+text-align: center;
+color: #439A97;
+border-top: 1px solid #97DECE;
+}
+
+@keyframes Title {
+    from {color: #000;}
+    to {color: #439A97;}
+}
+
+h1 {
+    animation-name: Title;
+}
 @media (min-width: 768px) {
 .holidaysInfo img {
     height: 480px;
@@ -54,10 +80,16 @@ h1 {
 p {
     font-size: 2rem;
 }
+
+.Krampus {
+    padding-bottom: 5rem;
 }
 
-.copyrightForFav {
-text-align: center;
-color: #439A97;
-border-top: 1px solid #97DECE;
+.nightOfTheRadishes {
+    padding-bottom: 7rem;
+}
+
+.kfcForChristmas {
+    padding-bottom: 6rem;
+}
 }
