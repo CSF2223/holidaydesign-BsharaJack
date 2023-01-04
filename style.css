@@ -7,15 +7,15 @@ Text Color: #439A97
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
 
-body{
+Body {
     font-family: 'Caveat', cursive;
     background-color: #CBEDD5;
     color: #439A97;
     font-size: 62.5%;
 }
 
-h1 {
-    font-size: 3.5rem;
+.holidaysTitle {
+    font-size: 2rem;
     display: flex;
     justify-content: center;
 }
@@ -43,38 +43,57 @@ p {
 
 .Krampus img {
     float: right;
+    border-radius: 25px;
+    border-style: inset;
+    border-color: #97DECE;
 }
 
 .nightOfTheRadishes img {
     float: left;
+    border-radius: 25px;
+    border-style: inset;
+    border-color: #97DECE;
 }
 
 .kfcForChristmas img {
     float: right;
+    border-radius: 25px;
+    border-style: inset;
+    border-color: #97DECE;
 }
 
 .copyrightForFav {
 text-align: center;
 color: #439A97;
 border-top: 1px solid #97DECE;
+text-decoration: none;
+}
+
+.copyrightForFav a {
+text-decoration: none;
+color: #0654a1;
 }
 
 @keyframes Title {
-    from {color: #000;}
-    to {color: #439A97;}
+0% {color: #0654a1;}
+50% {color: #439A97;}
+100% {color: #0654a1;}
 }
 
-h1 {
+.holidaysTitle {
     animation-name: Title;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
 }
+
 @media (min-width: 768px) {
 .holidaysInfo img {
     height: 480px;
     width: 640px;
 }
 
-h1 {
-    font-size: 4rem;
+.holidaysTitle {
+    font-size: 3.5rem;
 }
 
 p {
